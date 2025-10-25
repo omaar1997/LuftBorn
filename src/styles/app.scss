@@ -1,0 +1,15 @@
+.appContent {
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 120px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+  .appContent {
+    flex-direction: column;
+    padding: 0px 24px;
+  }
+}
